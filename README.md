@@ -16,3 +16,8 @@
 
 ## Env Variables
 REACT_APP_TASK_LIST_API_HOST: Task list api host
+
+## Dev Environment
+Node 10.22.1
+npm 6.14.6
+ReactJS 17.0.2 

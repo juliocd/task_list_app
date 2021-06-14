@@ -1,30 +1,30 @@
 .App {
-  text-align: center;
-  margin: 2% 10% 0% 10%;
+	text-align: center;
+	margin: 2% 10% 0% 10%;
 }
 
 .modal-button {
-  background-color: white;
-  border: 2px solid #6d6d6d;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 5px;
-  font-size: medium;
-  font-weight: 600;
-  margin: 1em;
+	background-color: white;
+	border: 2px solid #6d6d6d;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: medium;
+	font-weight: 600;
+	margin: 1em;
 }
 
 .modal-button:hover {
-  background-color: #a9a9a9;
+	background-color: #a9a9a9;
 }
 
 .modal-button-container {
-  text-align: end;
+	text-align: end;
 }
 
 .loading-container {
-  text-align: center;
+	text-align: center;
 }

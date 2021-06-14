@@ -35,9 +35,9 @@ function App() {
       const jsonResult = await response.json();
 
       if(jsonResult.result === 'success'){
-        setTaskList(jsonResult.data.tasks);
+        setTaskList(jsonResult.data.batch);
         setTotalTasks({
-          tasksRequested: tasksNumber ? tasksNumber : 3,
+          tasksRequested: jsonResult.data.batch_size,
           totalTasks: jsonResult.data.total
         });
       }else{

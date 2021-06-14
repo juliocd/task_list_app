@@ -1,0 +1,30 @@
+.RequestContainer{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.RequestContainer input {
+    margin-right: 10px;
+    border-radius: 5px;
+    height: 23px;
+    width: 10%;
+}
+
+.RequestContainer button {
+    background-color: #525252;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.RequestContainer button:hover {
+    background-color: #7b7b7b;
+}

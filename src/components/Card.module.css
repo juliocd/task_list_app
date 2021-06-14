@@ -1,0 +1,38 @@
+.Card {
+    border: 3px solid #484849;
+    border-radius: 5px;
+    padding: 1em;
+    background-color: #d4d4d4;
+}
+
+.Card label{
+    font-weight: 600;
+    font-size: large;
+    height: 20%;
+}
+
+.h-20{
+    height: 20%;
+}
+
+.h-50{
+    height: 50%;
+}
+
+.Card button {
+    background-color: #525252;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.Card button:hover {
+    background-color: #7b7b7b;
+}

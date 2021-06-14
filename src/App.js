@@ -105,7 +105,7 @@ function App() {
 
 	return (
 		<div className={classes.App}>
-			<h2>Task List {totalTasks.tasksRequested > 0 && `${totalTasks.tasksRequested}/${totalTasks.totalTasks}`}</h2>
+			<h2>Task List {totalTasks.tasksRequested > 0 && `(${totalTasks.tasksRequested}/${totalTasks.totalTasks})`}</h2>
 			<RequestContainer getTasks={getTasks} />
 			{!isLoading && <CardsContainer 
 				taskList={taskList}

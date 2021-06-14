@@ -5,16 +5,18 @@
 }
 
 .RequestContainer input {
-    margin-right: 10px;
+    text-align: center;
     border-radius: 5px;
-    height: 23px;
+    height: 28px;
+    border: 1px solid #cecece;
     width: 10%;
+    margin-right: 2%;
 }
 
 .RequestContainer button {
-    background-color: #525252;
-    border: none;
-    color: white;
+    background-color: white;
+	border: 2px solid #0876a7;
+    color: #0876a7;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
@@ -26,5 +28,16 @@
 }
 
 .RequestContainer button:hover {
-    background-color: #7b7b7b;
+    background-color: #0876a7;
+    color:white;
+}
+
+@media (max-width: 1000px) {
+    .RequestContainer input {
+        width: 20%;
+    }
+
+    .RequestContainer button {
+        width: 25%;
+    }
 }

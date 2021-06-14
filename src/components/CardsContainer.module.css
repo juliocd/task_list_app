@@ -1,8 +1,29 @@
 .CardsContainer {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.cards-grid{
     display: grid !important;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     grid-auto-rows: auto;
-    max-height: 800px;
-    overflow-y: auto;
+}
+
+@media (max-width: 1200px) {
+    .cards-grid{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        grid-auto-rows: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .cards-grid{
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        grid-auto-rows: auto;
+    }
 }

@@ -7,7 +7,7 @@ const Card = (props) => {
     }
 
     return(
-        <div className={classes.Card}>
+        <div className={`${classes.Card} ${props.isCompleted ? classes['completed'] : ''}`}>
             <div className={classes["h-20"]}>
                 <label>{props.taskName}</label>
             </div>

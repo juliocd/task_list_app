@@ -1,11 +1,14 @@
 .App {
 	text-align: center;
-	margin: 2% 10% 0% 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: inherit;
 }
 
 .modal-button {
 	background-color: white;
-	border: 2px solid #6d6d6d;
+	border: 2px solid #0876a7;
+	color: #0876a7;
 	padding: 5px 10px;
 	text-align: center;
 	text-decoration: none;
@@ -18,7 +21,8 @@
 }
 
 .modal-button:hover {
-	background-color: #a9a9a9;
+	background-color: #0876a7;
+	color: white;
 }
 
 .modal-button-container {
